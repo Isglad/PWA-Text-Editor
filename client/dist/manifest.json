@@ -31,7 +31,7 @@
       "type": "image/png"
     }
   ],
-  "name": "My Text Editor",
+  "name": "JATE",
   "short_name": "textEditor",
   "orientation": "portrait",
   "display": "standalone",

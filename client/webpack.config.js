@@ -9,10 +9,10 @@ module.exports = () => {
     mode: 'development',
     entry: {
       main: './src/js/index.js',
-      install: './src/js/install.js',
-      database: './src/js/database.js',
-      editor: './src/js/editor.js',
-      header: './src/js/header.js',
+      install: './src/js/install.js'
+      // database: './src/js/database.js',
+      // editor: './src/js/editor.js',
+      // header: './src/js/header.js',
     },
     output: {
       filename: '[name].bundle.js',
@@ -32,7 +32,7 @@ module.exports = () => {
       new WebpackPwaManifest({
         fingerprints: false,
         inject: true,
-        name: 'My Text Editor',
+        name: 'JATE',
         short_name: 'textEditor',
         description: 'Your text goes here!',
         background_color: '#225ca3',
